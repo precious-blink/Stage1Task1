@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-image{
+    /* background-image: url('https://images.hdqwalls.com/wallpapers/beautiful-landscape-5k-c1.jpg'); */
+    height: 250px;
+    /* background-size: 100%;
+    background-repeat: no-repeat; */
+    background-color: #eae3e3;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.userdata{
+    position: relative;
+    top: 100px;
+    /* display: flex; */
+    margin-left: 5%;
+    /* gap: 7%; */
+    background-color: white;
+    width: 26%;
+    padding-top: 30px;
+    padding-left: 70px;
+    /* padding-right: 20px; */
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+.userImage{
+    border-radius: 50px;
+    border: 4px solid white;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+.userName{
+    font-size: x-large;
+    background-color: red;
+    background-image: linear-gradient(45deg, #ba5bea, yellow, darkorchid);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.usertrack{
+    margin-top: 2px;
+    color: #5d5555;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-left: 15px;
+}
+.con{
+    margin-top: 5%;
+    margin-left: 25px;
+}
+.git{
+    border: 2px solid darkgray;
+    width: min-content;
+    padding: 3px 5px 3px 5px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+.data-time{
+    margin-top: 300px;
+    margin-left: 3%;
+}
+.day{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #5d5555;
+}
+.time{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5d5555;
+}
